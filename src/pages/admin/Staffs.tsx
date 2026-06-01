@@ -11,7 +11,7 @@ export default function Staffs() {
     username: '',
     password: '',
     avatar: '',
-    status: 'active' as const,
+    status: 'active' as 'active' | 'inactive',
   });
 
   const hasAssignedTasks = (staffId: string) => {
