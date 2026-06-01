@@ -1,0 +1,18 @@
+[
+  {
+    "id": "boss-1",
+    "bossNo": "B001",
+    "gameAccount": "player001",
+    "gameId": "绝区玩家001",
+    "gamePassword": "pass123",
+    "game": "绝区零"
+  },
+  {
+    "id": "boss-2",
+    "bossNo": "B002",
+    "gameAccount": "player002",
+    "gameId": "绝区玩家002",
+    "gamePassword": "pass456",
+    "game": "绝区零"
+  }
+]

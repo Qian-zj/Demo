@@ -1,0 +1,42 @@
+[
+  {
+    "id": "task-1",
+    "gameAccount": "player001",
+    "gameId": "绝区玩家001",
+    "bossNo": "B001",
+    "dailyTask": "daily",
+    "weeklyTasks": ["weekly1"],
+    "abyssTasks": ["defense"],
+    "notes": "每日任务必做",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-31",
+    "status": "进行中",
+    "loginDevice": "PC",
+    "staffId": "staff-1",
+    "income": 500,
+    "expense": 200,
+    "receiveDate": "2025-01-01",
+    "returnImages": [],
+    "returnVideos": []
+  },
+  {
+    "id": "task-2",
+    "gameAccount": "player002",
+    "gameId": "绝区玩家002",
+    "bossNo": "B002",
+    "dailyTask": "fullStamina",
+    "weeklyTasks": ["weekly2", "weeklyBoss", "hollow"],
+    "abyssTasks": ["assault"],
+    "notes": "",
+    "startDate": "2025-01-05",
+    "endDate": "2025-02-05",
+    "status": "进行中",
+    "loginDevice": "手机",
+    "staffId": "staff-2",
+    "income": 800,
+    "expense": 300,
+    "receiveDate": "2025-01-05",
+    "returnImages": [],
+    "returnVideos": []
+  }
+]
