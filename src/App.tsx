@@ -7,6 +7,7 @@ import AdminMobileLayout from "@/components/AdminMobileLayout";
 import StaffLayout from "@/components/StaffLayout";
 import StaffMobileLayout from "@/components/StaffMobileLayout";
 import HostedTasks from "@/pages/admin/HostedTasks";
+import DailyTasks from "@/pages/admin/DailyTasks";
 import GanttView from "@/pages/admin/GanttView";
 import Bosses from "@/pages/admin/Bosses";
 import Staffs from "@/pages/admin/Staffs";
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/admin" element={isMobile ? <AdminMobileLayout /> : <AdminLayout />}>
             <Route index element={<Navigate to="/admin/tasks/hosted" />} />
             <Route path="tasks/hosted" element={<HostedTasks />} />
+            <Route path="tasks/daily" element={<DailyTasks />} />
             <Route path="tasks/gantt" element={<GanttView />} />
             <Route path="bosses" element={<Bosses />} />
             <Route path="staff" element={<Staffs />} />

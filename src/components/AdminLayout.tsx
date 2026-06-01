@@ -9,6 +9,7 @@ export default function AdminLayout() {
 
   const navItems = [
     { path: '/admin/tasks/hosted', label: '托管任务', icon: Calendar },
+    { path: '/admin/tasks/daily', label: '代肝任务', icon: LayoutDashboard },
     { path: '/admin/tasks/gantt', label: '任务进度', icon: LayoutDashboard },
     { path: '/admin/bosses', label: '老板管理', icon: Users },
     { path: '/admin/staff', label: '员工管理', icon: User },
